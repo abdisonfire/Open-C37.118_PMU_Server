@@ -3,12 +3,17 @@ To get started ->
 ```bash
 sudo apt install build-essential autoconf libtool
 ```
+Inside the repository root
 ```bash
 ./autogen.sh
+```
+```bash
 ./configure
 ```
 ```bash
 sudo make
+```
+```bash
 sudo make install
 ```
 To Run the PMU Server ->
@@ -17,7 +22,7 @@ To Run the PMU Server ->
 cd ./examples
 ```
 ```bash
-g++ pmu.cpp '/usr/local/lib/libopenc37118-1.0.a' -I/usr/local/include/openc37118-1.0 -lpthread
+g++ pmu_server.cpp '/usr/local/lib/libopenc37118-1.0.a' -I/usr/local/include/openc37118-1.0 -lpthread
 ```
 
 ```bash
