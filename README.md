@@ -1,4 +1,4 @@
-To get started in Ubuntu 20.04 ->
+To get started ->
 
 ```bash
 sudo apt install build-essential autoconf libtool
