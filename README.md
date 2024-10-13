@@ -1,3 +1,32 @@
+To get started in Ubuntu 20.04 ->
+
+```bash
+sudo apt install build-essential autoconf libtool
+```
+```bash
+./autogen.sh
+./configure
+```
+```bash
+sudo make
+sudo make install
+```
+To Run the PMU Server ->
+
+```bash
+cd ./examples
+```
+```bash
+g++ pmu.cpp '/usr/local/lib/libopenc37118-1.0.a' -I/usr/local/include/openc37118-1.0 -lpthread
+```
+
+```bash
+./a.out
+```
+
+
+
+
 (C) Copyright 2014 Rafael Marsolla - rafamarsolla at gmail dot com
 
 If you are looking for an LGPL or MIT licenses, please contact us.
